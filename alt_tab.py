@@ -6,7 +6,7 @@ def addTab(path):
         
         # 在每行後添加兩個空格
         updated = list()
-        
+
         for line in lines:
             updated.append(line.rstrip() + '  \n')
         
@@ -18,5 +18,5 @@ def addTab(path):
     except Exception as e:
         print("發生錯誤：", e)
 
-path = "alttab.txt"
+path = "alt_tab.txt"
 addTab(path)
