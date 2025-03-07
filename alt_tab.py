@@ -1,7 +1,17 @@
+import os
+
 def addTab(path):
     try:
+        # 讀取 alt_tab.py 位置
+        file_path = os.path.dirname(os.path.abspath(__file__))
+        print("目前所在的資料夾：", file_path)
+
+        # 將 alt_tab.txt 位置修正
+        txt_path = os.path.join(file_path, path)
+        print("alt_tab.txt 的正確位置：", txt_path)
+
         # 讀取文件內容
-        with open(path, 'r', encoding='utf-8') as file:
+        with open(txt_path, 'r', encoding='utf-8') as file:
             lines = file.readlines()
         
         # 在每行後添加兩個空格
