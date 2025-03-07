@@ -14,5 +14,5 @@ README.md的markdown語法若要換行需要在文字後加兩個空格
 ### 更新日誌
 日期 | 版本 | 說明 | 連結 |
 |:--------:|:--------:|:-------:|:--------:|
-| 2024/12/18 | v1 | 提供空兩格服務 | [alt_tab v1](https://github.com/chingyen06/Readmd-alt-tab/releases/tag/alt_tab_v1) |
-| 2025/3/7 | v2 | 修正路徑抓取錯誤問題 | [alt_tab v2](https://github.com/chingyen06/Readmd-alt-tab/releases/tag/alt_tab_v2) |
+| 2024/12/18 | v1 | 提供空兩格服務 | [🔗alt_tab v1](https://github.com/chingyen06/Readmd-alt-tab/releases/tag/alt_tab_v1) |
+| 2025/3/7 | v2 | 修正路徑抓取錯誤問題 | [🔗alt_tab v2](https://github.com/chingyen06/Readmd-alt-tab/releases/tag/alt_tab_v2) |
