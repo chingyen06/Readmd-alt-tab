@@ -21,10 +21,10 @@ def addTab(path):
             updated.append(line.rstrip() + '  \n')
         
         # 寫回文件
-        with open(path, 'w', encoding='utf-8') as file:
+        with open(txt_path, 'w', encoding='utf-8') as file:
             file.writelines(updated)
         
-        print("已成功在每行結尾添加兩個空格：", path)
+        print("已成功在每行結尾添加兩個空格：", txt_path)
     except Exception as e:
         print("發生錯誤：", e)
 
